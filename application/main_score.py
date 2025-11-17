@@ -33,5 +33,5 @@ def score_server():
         </html>
     """, BAD_RETURN_CODE
 
-# if __name__ == '__main__':
-#   app.run(port=5000)
+if __name__ == '__main__':
+    app.run(port=5000)
